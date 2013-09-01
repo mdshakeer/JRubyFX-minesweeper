@@ -1,3 +1,17 @@
+
 .box {
-    -fx-fill: #333333
+	-fx-effect: innershadow(gaussian,#000000,1,1,0,0);
+	-fx-fill: linear-gradient(#00c3ea 1%, #38bee2 50%, #00b1e8 53%, #0088a0 100%);
+	-fx-stroke: #000000;
+	-fx-stroke-width:1;
+	
+}
+.box:hover {
+	-fx-effect: innershadow(gaussian,#05bafc,1,1,0,0);
+	-fx-fill: linear-gradient(#00c3ea 1%, #38bee2 50%, #00b1e8 53%, #0088a0 100%);
+	-fx-stroke: #05e7fc;
+	-fx-stroke-width:1;	
+}
+.screen{
+	-fx-background-color: linear-gradient(#333333 1%,  #000000 100%);
 }
